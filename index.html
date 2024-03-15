@@ -16,6 +16,7 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 	<title>GenysonXD</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 	<!-- Fonts -->
 	<!-- Preconnect -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -42,13 +43,13 @@
 	<main>
 		<div class="container">
 			<section class="intro">
-				<div>
+				<div data-aos="fade-right" data-aos-duration="1500">
 					<h1>Opa, me chamo Genyson</h1>
 					<p>Sou um programador/desenvolvedor iniciante que está gradualmente buscando aprimorar minhas habilidades, com conhecimento básico tanto em back-end quanto em front-end.</p>
 				</div>
-				<img draggable="false" src="assets/img/INTROIMG3.0.png" />
+				<img data-aos="fade-left" data-aos-duration="1500" draggable="false" src="assets/img/INTROIMG3.0.png" />
 			</section>
-			<section class="sobre" id="sobre-mim">
+			<section class="sobre" id="sobre-mim" data-aos="fade-up" data-aos-duration="1500">
 				<div class="sobre-mim-caixa">
 					<div>
 						<h1>Mais sobre mim</h1>
@@ -57,16 +58,16 @@
 						<p>
 							Tenho conhecimentos básicos em inglês e facilidade em resolver problemas complexos. Além disso, sou designer e possuo habilidades em marketing. Minha mãe costuma dizer que sou bonito.</p>
 					</div>
-					<img draggable="false" src="assets/img/sobremim.png" />
+					<img draggable="false" src="assets/img/sobremim.png" data-aos="zoom-in"/>
 				</div>
 			</section>
 		</div>
 		<section class="projetos">
-			<div>
+			<div data-aos="fade-up" data-aos-duration="1500">
 				<h1>- Projetos -</h1>
 			</div>
 		</section>
-		<section class="projetosfr">
+		<section class="projetosfr" data-aos="fade-up" data-aos-duration="1500">
 			<a href="https://github.com/Extremois/portfolio" rel="noopener noreferrer" target="_blank">
 				<div>
 					<h2>Portifólio</h2>
@@ -80,5 +81,9 @@
 				</div>
 			</section>
 	</main>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	  </script>
 </body>
 </html>
